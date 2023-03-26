@@ -3,7 +3,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import { Notify } from 'notiflix';
 
 axios.defaults.baseURL =
-  // 'https://63e61658c8839ccc285115b1.mockapi.io/contacts/';
+  // 'https://64137b66c469cff60d643c19.mockapi.io/contacts/';
   'https://connections-api.herokuapp.com';
 
 export const getUser = createAsyncThunk('auth/getUser', async (_, thunkAPI) => {
