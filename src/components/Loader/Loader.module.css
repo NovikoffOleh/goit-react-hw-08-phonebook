@@ -1,0 +1,38 @@
+h1{
+  color: rgb(80, 79, 79);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+
+}
+.container {
+  position: relative;
+  width: 400px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #4893ee;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.phonebook {
+  padding: 80px 20px;
+  width: 400px;
+  height: 495px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-color: #7cb1f1;
+  
+  /*background-image: url(https://thumbs.dreamstime.com/z/%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%BD%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B6%D0%BA%D0%B0-%D0%B8-%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9-%D1%84%D0%BE%D0%BD-%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D0%B0%D1%82%D1%8B%D0%B9-%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA-%D1%81-%D0%BF%D0%B5%D1%80%D0%BE%D0%BC-%D0%BD%D0%B0-%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC-%D1%84%D0%BE%D0%BD%D0%B5-158259456.jpg)*/
+  background-image: url(../pages/fon.jpg);
+}

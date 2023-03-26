@@ -1,0 +1,33 @@
+.contactForm {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 10px;
+  margin: 20px auto 20px auto;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+.contactLabel {
+  display: flex;
+  justify-content: space-around;
+}
+.contactInput {
+  border-radius: 5px;
+  border-color: inherit;
+}
+
+.btn {
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 17px;
+  border-color: inherit;
+  border: inherit;
+  border-radius: 10px;
+  background-color: #d5e1e8;;
+  border-color: inherit;
+}
+.btn:hover {
+  background-color: rgb(243, 248, 243);
+  color: blue;
+}
