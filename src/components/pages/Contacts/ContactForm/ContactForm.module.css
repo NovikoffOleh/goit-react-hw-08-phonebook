@@ -10,11 +10,13 @@
 }
 .contactLabel {
   display: flex;
+ 
   justify-content: space-around;
 }
 .contactInput {
   border-radius: 5px;
   border-color: inherit;
+  width: 270px;
 }
 
 .btn {
