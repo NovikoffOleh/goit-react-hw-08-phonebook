@@ -34,6 +34,9 @@ export function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <div className="footer"> OlehNovikoff 2023
+      
+      </div>
     </div>
   );
 }
