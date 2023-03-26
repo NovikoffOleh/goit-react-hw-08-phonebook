@@ -10,7 +10,7 @@ export const AppBar = () => {
     <header>
       <ul className={s.list}>
         <li className={s.items}>
-          <Link to="/">Додому</Link>
+          <Link to="/">До дому</Link>
         </li>
 
         {!isAuth && (
