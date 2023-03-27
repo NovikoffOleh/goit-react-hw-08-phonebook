@@ -12,8 +12,8 @@ export const Filter = () => {
   return (
     <div className={styles.box}>
       <form className={styles.form}>
-        <p className={styles.label}>Contacts</p>
-        <h4 className={styles.label}>Find your contact by name</h4>
+        <p className={styles.label}>Контакт</p>
+        <h4 className={styles.label}>Знайти контакт</h4>
         <input
           type="text"
           className={styles.input}

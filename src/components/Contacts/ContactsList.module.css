@@ -1,14 +1,15 @@
 .box{
   display: flex;
   justify-content: center;
-  min-height: calc(100vh - 50px);
+  
+  height: 400px;
 }
 
 .list {
-  margin-top: 10px;
+  margin-top: 5px;
   color: black;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 
@@ -40,5 +41,6 @@
 
 .btn:hover,
 :focus {
-  background-color: rgb(178, 176, 176);
+  background-color: rgb(95, 93, 93);
+    color: white;
 }

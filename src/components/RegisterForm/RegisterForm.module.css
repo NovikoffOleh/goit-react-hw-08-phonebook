@@ -1,7 +1,7 @@
 .box {
   display: flex;
   justify-content: center;
-  min-height: calc(100vh - 50px);
+  height: 400px;
 }
 
 .form {
@@ -28,3 +28,5 @@
 :focus {
   background-color: rgb(178, 176, 176);
 }
+
+ /*min-height: calc(100vh - 50px);*/

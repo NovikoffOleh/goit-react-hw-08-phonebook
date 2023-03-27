@@ -3,10 +3,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 600px;
+  max-width: 680px;
   margin-bottom: 8px;
   border-bottom: 1px solid #25b6f5;
   padding: 8px 2px;
+}
+.footer{
+  margin-bottom: 200px;
+  margin: 0 auto;
 }
 
 

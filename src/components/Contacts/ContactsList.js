@@ -25,7 +25,7 @@ export const ContactsList = () => {
                 type="button"
                 data-id={id}
               >
-                Delete contact
+                Видалити
               </button>
             </li>
           );

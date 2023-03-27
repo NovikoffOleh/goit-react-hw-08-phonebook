@@ -55,7 +55,7 @@ export function PhonebookForm() {
   return (
     <div className={styles.box}>
       <form className={styles.form} onSubmit={onAddContacts}>
-        <h3 className={styles.label}>Phonebook</h3>
+        <h3 className={styles.label}>Телефонна книга</h3>
         <input
           className={styles.input}
           text="text"
@@ -79,7 +79,7 @@ export function PhonebookForm() {
           required
         />
         <button className={styles.btn} type="submit">
-          Add contact
+          Додати контакт
         </button>
       </form>
     </div>

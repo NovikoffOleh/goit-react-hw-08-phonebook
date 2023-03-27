@@ -16,8 +16,11 @@ const styles = {
 const Home = () => {
   return (
     <div style={styles.container}>
+      <div className="fon">
       <h1 style={styles.title}>Вітаю у твоєму ТелефонВook</h1>
+   </div>
     </div>
+    
   );
 };
 
