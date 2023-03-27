@@ -20,9 +20,10 @@
   border-radius: 10px;
   text-align: center;
   background-color: #b0d1fa;
-  
-}
-.fon{
-background-image: url(../pages/fon.jpg);
+  background-image: url(../pages/fon.jpg);
   background-repeat: no-repeat;
+  background-size: 100%;
 }
+
+  
+
