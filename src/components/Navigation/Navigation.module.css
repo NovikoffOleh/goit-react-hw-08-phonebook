@@ -1,0 +1,14 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px;
+  font-weight: 700;
+  color: #2a363b;
+}
+.link:hover{
+  color: white;
+}
+
+.link.active {
+  background-color: rgb(178, 176, 176);
+}

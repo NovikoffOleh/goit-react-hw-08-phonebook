@@ -14,3 +14,17 @@ code {
     monospace;
 }
 
+h1,h2{
+padding: 0px;
+margin: 0px;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+}
