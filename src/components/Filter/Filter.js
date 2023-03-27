@@ -12,13 +12,13 @@ export const Filter = () => {
   return (
     <div className={styles.box}>
       <form className={styles.form}>
-        <p className={styles.label}>Контакт</p>
-        <h4 className={styles.label}>Знайти контакт</h4>
+        <h2 className={styles.label}>Контакт</h2>
+        <h3 className={styles.label}>Знайти контакт</h3>
         <input
           type="text"
           className={styles.input}
           name="filter"
-          placeholder="Search"
+          placeholder="Знайти"
           onChange={e => onChangeFilter(e.target.value)}
         />
       </form>

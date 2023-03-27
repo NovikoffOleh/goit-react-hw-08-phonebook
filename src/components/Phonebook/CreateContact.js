@@ -60,7 +60,7 @@ export function PhonebookForm() {
           className={styles.input}
           text="text"
           name="name"
-          placeholder="Name"
+          placeholder="Імʼя"
           value={name}
           onChange={handleChange}
           pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
@@ -69,7 +69,7 @@ export function PhonebookForm() {
         />
         <input
           className={styles.input}
-          placeholder="Number "
+          placeholder="Номер "
           type="tel"
           value={number}
           onChange={handleChange}
